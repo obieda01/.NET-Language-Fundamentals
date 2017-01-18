@@ -4,3 +4,6 @@ C:\Users\aobiedat\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exerci
 C:\Users\aobiedat\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\obj\Debug\VariableNaming.exe
 C:\Users\aobiedat\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\obj\Debug\VariableNaming.pdb
 C:\Users\aobiedat\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\obj\Debug\VariableNaming.csprojResolveAssemblyReference.cache
+C:\Users\aobiedat\TechElevator\.NET_bootCamp\week1\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\bin\Debug\VariableNaming.exe.config
+C:\Users\aobiedat\TechElevator\.NET_bootCamp\week1\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\obj\Debug\VariableNaming.exe
+C:\Users\aobiedat\TechElevator\.NET_bootCamp\week1\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\obj\Debug\VariableNaming.pdb
