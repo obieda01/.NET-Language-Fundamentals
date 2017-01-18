@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\aobiedat\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\bin\Debug\VariableNaming.exe.config
 C:\Users\aobiedat\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\bin\Debug\VariableNaming.exe
 C:\Users\aobiedat\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\bin\Debug\VariableNaming.pdb
@@ -7,3 +8,6 @@ C:\Users\aobiedat\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exerci
 C:\Users\aobiedat\TechElevator\.NET_bootCamp\week1\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\bin\Debug\VariableNaming.exe.config
 C:\Users\aobiedat\TechElevator\.NET_bootCamp\week1\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\obj\Debug\VariableNaming.exe
 C:\Users\aobiedat\TechElevator\.NET_bootCamp\week1\ahmedobieda-c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\obj\Debug\VariableNaming.pdb
+=======
+C:\Users\john\c-exercises\m1-w1d2-variables-and-datatypes-exercises\VariableNaming\bin\Debug\VariableNaming.exe.config
+>>>>>>> 1abe33156c01230347dbc4a200068acad9534d1d
