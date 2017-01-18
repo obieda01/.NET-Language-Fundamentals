@@ -16,7 +16,11 @@ namespace Exercises
         */
         public int IntMax(int a, int b, int c)
         {
-            return 0;
+            int max;
+            if (a <= b) max = b;
+            else max = a;
+            if (max <= c) return c;
+            else return max;
         }
 
     }
