@@ -17,7 +17,15 @@ namespace Exercises
          */
         public int[] RotateLeft3(int[] nums)
         {
-            return new int[] { };
+            int[] chache = new int [nums.Length];
+            chache[2] = nums[0];
+            chache[0] = nums[1];
+            chache[1] = nums[2];
+
+      
+            
+            return chache;
+
         }
 
     }
