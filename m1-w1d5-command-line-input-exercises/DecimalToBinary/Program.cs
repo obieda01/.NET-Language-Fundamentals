@@ -25,6 +25,44 @@ namespace DecimalToBinary
 
         static void Main(string[] args)
         {
+            try
+            {
+
+                Console.WriteLine("C:\\Users> DecimalToBinary\nPlease enter in a series of decimal values (separated by spaces); for example: 460 8218 1 31313 987654321");
+                char[] seprators = { ' ' };
+                string[] stringValueArray= Console.ReadLine().Split(seprators);
+                for (int i=0;i<stringValueArray.Length;i++)
+                {
+                    int intValue = int.Parse(stringValueArray[i]);
+                    
+                    Console.WriteLine(intValue+" in binary is " +DecimalToBinary(intValue)+"\n");
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("An error occurred! \nyou entered a wrong value \n\n", e);
+            }
         }
+
+        static String DecimalToBinary(int decValue)
+        {
+            StringBuilder sb = new StringBuilder();
+                                    
+            while (decValue != 0)
+            {
+                sb.Append(((decValue & 1) == 1 ? '1' : '0').ToString());
+                decValue >>= 1;
+
+            }
+            char[] charArray = sb.ToString().ToCharArray();
+            StringBuilder sb_temp = new StringBuilder();
+
+            for (int i = charArray.Length-1; i >=0; i--)
+            {
+                sb_temp.Append(charArray[i].ToString()); 
+            }
+            return sb_temp.ToString();
+        }
+       
     }
 }

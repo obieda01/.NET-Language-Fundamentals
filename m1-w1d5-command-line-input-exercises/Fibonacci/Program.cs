@@ -22,6 +22,37 @@ namespace Fibonacci
          */
         static void Main(string[] args)
         {
+            try
+            {
+                Console.WriteLine("C:\\Users> Fiboncci \nPlease enter the Fibonacci number: ");
+                int fabNumber = int.Parse(Console.ReadLine());
+
+                //Fib=(n-1)+(n-2)
+                
+                int a = 0;
+                int b = 1;
+                StringBuilder chache = new StringBuilder();
+                chache.Append("0, 1");
+                //int c = 0;
+                for (int i = 0; i < fabNumber; i++)
+                {
+                   
+                    int c = a + b;
+                    if (c < fabNumber)
+                    {
+                        chache.Append(", " + c);
+                        a = b;
+                        b = c;
+                    }
+                    else break;
+                }
+                Console.WriteLine(chache);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("An error occurred! \nyou entered a wrong value \n\n", e);
+
+            }
         }
     }
 }
