@@ -23,6 +23,7 @@ namespace Exercises
             for (int i = 0; i < nums.Length; i++)
             {
                 if (nums[i] != 13) sum += nums[i];
+                else ++i ;
             }
             return sum;
         }
