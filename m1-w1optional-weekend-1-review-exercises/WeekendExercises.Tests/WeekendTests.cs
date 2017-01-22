@@ -27,8 +27,7 @@ namespace WeekendExercises.Tests
             Assert.AreEqual(1, exercises.ArrayCount9(new int[] { 9, 2, 4, 3, 1 }), "Input { 9, 2, 4, 3, 1 }");
         }
 
-
-
+    
         /*
          arrayFront9([1, 2, 9, 3, 4]) → true
          arrayFront9([1, 2, 3, 4, 9]) → false

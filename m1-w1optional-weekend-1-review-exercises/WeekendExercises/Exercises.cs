@@ -16,7 +16,13 @@ namespace WeekendExercises
 	 */
         public int ArrayCount9(int[] nums)
         {
-            return 0;
+            int count = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == 9) count++;
+            }
+            return count;
+            
         }
 
         /*
@@ -27,6 +33,17 @@ namespace WeekendExercises
          */
         public bool ArrayFront9(int[] nums)
         {
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (i < 3)
+                {
+                    if (nums[i] == 9)
+                    {
+                        return true;
+                    }
+                }
+                else break;  
+            }
             return false;
         }
 
@@ -38,6 +55,11 @@ namespace WeekendExercises
          */
         public bool Array123(int[] nums)
         {
+            for (int i = 0; i < nums.Length-2; i++)
+            {
+                if (nums[i] == 1 && nums[i + 1] == 2 && nums[i + 2] == 3) return true;
+                
+            }
             return false;
         }
 
@@ -50,7 +72,12 @@ namespace WeekendExercises
          */
         public bool NoTriples(int[] nums)
         {
-            return false;
+            for (int i = 0; i < nums.Length-2; i++)
+            {
+                if (nums[i] == nums[i + 1] && nums[i + 1] == nums[i + 2]) return false;
+                
+            }
+            return true;
         }
 
         /*
@@ -62,7 +89,12 @@ namespace WeekendExercises
          */
         public int[] MakeEnds(int[] nums)
         {
-            return new int[] { };
+            int[] localArray=new int[2];
+          
+                localArray[0] = nums[0];
+                localArray[1] = nums[nums.Length-1];
+            
+            return localArray;
         }
 
         /*
@@ -73,7 +105,8 @@ namespace WeekendExercises
          */
         public bool Has23(int[] nums)
         {
-            return false;
+            return (nums[0] == 2 || nums[0] == 3 || nums[1] == 2 || nums[1] == 3)?  true:false;
+                    
         }
 
         /*
@@ -84,7 +117,8 @@ namespace WeekendExercises
          */
         public bool No23(int[] nums)
         {
-            return false;
+            return (nums[0] == 2 || nums[0] == 3 || nums[1] == 2 || nums[1] == 3)?  false:true;
+           
         }
 
         /*
@@ -97,7 +131,9 @@ namespace WeekendExercises
          */
         public int[] MakeLast(int[] nums)
         {
-            return new int[] { };
+            int[] localArray = new int[nums.Length*2];
+            localArray[localArray.Length - 1] = nums[nums.Length - 1];
+            return localArray;
         }
 
         /*
@@ -108,7 +144,16 @@ namespace WeekendExercises
          */
         public bool Double23(int[] nums)
         {
-            return false;
+            int countTwo = 0;
+            int countThree = 0;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == 2) countTwo++;
+                if (nums[i] == 3) countThree++;
+                
+            }
+            return countTwo==2||countThree==2;
         }
 
         /*
@@ -131,7 +176,15 @@ namespace WeekendExercises
          */
         public int Start1(int[] a, int[] b)
         {
+            if (a.Length == 0 && b.Length != 0 && b[0] == 1) return 1;
+            if (a.Length == 0 && b.Length == 0 ) return 0;
+            if (a.Length != 0 && b.Length == 0 && a[0] == 1) return 1;
+            if (a.Length != 0 && b.Length != 0 && b[0] == 1&&a[0]==1) return 2;
+            if (a.Length != 0 && b.Length != 0 && b[0] != 1 && a[0] == 1) return 1;
+            if (a.Length != 0 && b.Length != 0 && b[0] == 1 && a[0] != 1) return 1;
+            
             return 0;
+
         }
 
         /*
@@ -143,7 +196,24 @@ namespace WeekendExercises
          */
         public int[] BiggerTwo(int[] a, int[] b)
         {
-            return new int[] { };
+            int aSum = 0;
+            int bSum = 0;
+            if (a.Length == 0 && b.Length == 0) return new int[] { };
+            else
+            {    
+                    for (int i = 0; i < a.Length ; i++) 
+                    {
+                        aSum+=a[i];
+                    }
+                for (int i = 0; i < b.Length; i++)
+                {
+                    bSum+=b[i];
+                }
+
+            }
+            return aSum >= bSum ? a : b;
+            
+           
         }
 
         /*
@@ -155,7 +225,13 @@ namespace WeekendExercises
          */
         public int[] MakeMiddle(int[] nums)
         {
-            return new int[] { };
+            if (nums.Length < 2) return nums;
+
+            int[] middelElements = new int[2];
+            middelElements[0] = nums[(nums.Length / 2) - 1];
+            middelElements[1] = nums[(nums.Length / 2) ];
+
+            return middelElements;
         }
 
         /*
@@ -166,7 +242,20 @@ namespace WeekendExercises
          */
         public int[] PlusTwo(int[] a, int[] b)
         {
-            return new int[] { };
+            int[] localArray = new int[a.Length+b.Length];
+            int index = 0;
+            for (int i = 0; i < a.Length; i++)
+            {
+                localArray[index++] = a[i];
+               // index++;
+            }
+            for (int i = 0; i < b.Length; i++)
+            {
+                localArray[index++] = b[i];
+               // index++;
+            }
+
+            return localArray;
         }
 
         /*
@@ -178,9 +267,13 @@ namespace WeekendExercises
          */
         public int[] SwapEnds(int[] nums)
         {
-            return new int[] { };
+            if (nums.Length == 0) return new int[] { };
+            int chache = nums[0];
+            nums[0] = nums[nums.Length - 1];
+            nums[nums.Length - 1] = chache;
+            return nums;
         }
-
+        
         /*
          Given an array of ints, return true if the number of 1's is greater than the number of 4's
          more14([1, 4, 1]) → true
@@ -189,7 +282,15 @@ namespace WeekendExercises
          */
         public bool More14(int[] nums)
         {
-            return false;
+            int countOnes = 0;
+            int countFours = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == 1) countOnes++;
+                if (nums[i] == 4) countFours++;
+
+            }
+            return countOnes > countFours ? true : false;
         }
 
         /*
@@ -203,7 +304,12 @@ namespace WeekendExercises
          */
         public int[] FizzArray(int n)
         {
-            return new int[] { };
+            int[] resultArray = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+                resultArray[i] = i;
+            }
+            return resultArray;
         }
 
         /*
@@ -214,7 +320,14 @@ namespace WeekendExercises
          */
         public bool Only14(int[] nums)
         {
-            return false;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (!(nums[i]==1||nums[i]==4))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
 
         /*
@@ -225,7 +338,16 @@ namespace WeekendExercises
          */
         public bool No14(int[] nums)
         {
-            return false;
+            bool containOne = false;
+            bool containFour = false;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == 1) containOne = true;
+                if (nums[i] == 4) containFour = true;
+                
+            }
+            return !(containFour&&containOne);
         }
 
         /*
@@ -236,6 +358,23 @@ namespace WeekendExercises
          */
         public bool Has12(int[] nums)
         {
+            bool containOne = false;
+            int index = 0;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] == 1)
+                {
+                    containOne = true;
+                    break;
+                }
+                index++;
+            }
+            for (int i=index; i < nums.Length; i++)
+            {
+                if (nums[i] == 2 && containOne == true) return true;
+                
+            }
             return false;
         }
 
@@ -249,7 +388,10 @@ namespace WeekendExercises
          */
         public int[] FizzArray3(int start, int end)
         {
-            return new int[] { };
+            if(start>=end)return new int[] { };
+            int[] resultArray = new int[end - start];
+            for (int i = 0; i < resultArray.Length; i++) resultArray[i] = start++;
+            return resultArray;
         }
 
         /*
@@ -260,6 +402,7 @@ namespace WeekendExercises
          */
         public bool LessBy10(int a, int b, int c)
         {
+            
             return false;
         }
 
