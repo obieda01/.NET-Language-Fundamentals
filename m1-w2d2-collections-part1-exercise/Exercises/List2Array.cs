@@ -15,8 +15,8 @@ namespace Exercises
          list2Array( ["Left", "Right", "Forward", "Back"] )  ->  {"Left", "Right", "Forward", "Back"}
          */
         public string[] List2Array(List<string> stringList)
-        {
-            return null;
+        {  
+            return stringList.ToArray();
         }
     }
 }

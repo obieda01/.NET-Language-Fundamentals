@@ -16,7 +16,10 @@ namespace Exercises
          */
         public List<string> Array2List(string[] stringArray)
         {
-            return null;
+            List<string> chacheList = new List<string>();
+            foreach (string s in stringArray)
+            { chacheList.Add(s); }
+            return chacheList;
         }
 
     }
