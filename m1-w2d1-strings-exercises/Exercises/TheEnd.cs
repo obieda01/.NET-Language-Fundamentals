@@ -17,7 +17,10 @@ namespace Exercises
         */
         public string TheEnd(string str, bool front)
         {
-            return null;
+
+            if (str == null) return null;
+            if (front) return str[0].ToString();
+            else return str[str.Length - 1].ToString();
         }
     }
 }

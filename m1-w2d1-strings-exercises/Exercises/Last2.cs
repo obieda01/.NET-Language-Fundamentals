@@ -17,7 +17,17 @@ namespace Exercises
          */
         public int Last2(string str)
         {
-            return 0;
+            int count = 0;
+            if(str==null ||str.Length<4)return 0;
+            for (int i = 0; i <str.Length-2; i++)
+            {
+                if (str[i] == str[str.Length - 2] && str[i+1] == str[str.Length - 1])
+                {
+                    count++;
+                  
+                }
+            }
+            return count;
         }
     }
 }

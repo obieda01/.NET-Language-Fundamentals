@@ -17,7 +17,17 @@ namespace Exercises
         */
         public string StringX(string str)
         {
-            return null;
+
+            if (str==null||str.Length==0)return "";
+            if (str.Length == 1) return str;
+            StringBuilder sb = new StringBuilder();
+            sb.Append(str[0]);
+            for (int i = 1; i <str.Length-1; i++)
+            {
+                if (str[i] != 'x') sb.Append(str[i]);
+            }
+            sb.Append(str[str.Length-1]);
+            return sb.ToString();
         }
     }
 }

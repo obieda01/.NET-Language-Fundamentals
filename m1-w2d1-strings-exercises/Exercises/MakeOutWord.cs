@@ -18,8 +18,10 @@ namespace Exercises
          */
         public string MakeOutWord(string outword, string word)
         {
+            if (outword == null && word == null) return null;
+            if (outword==null ||outword.Length==1) return word;
 
-            return null;
+            return outword.Substring(0, 2) + word + outword.Substring(2);                            
         }
     }
 }

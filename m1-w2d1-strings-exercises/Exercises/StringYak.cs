@@ -17,7 +17,31 @@ namespace Exercises
          */
         public string StringYak(string str)
         {
-            return null;
+            StringBuilder sb = new StringBuilder();
+            
+            if (str == null || str.Length < 3) return str;
+
+
+            for (int i = 0; i < str.Length ; i++)
+            {
+                if (str[i] != 'y') sb.Append(str[i]);
+                else
+                {
+                    if (i < str.Length - 2)
+                    {
+                        if (str[i + 2] != 'k') sb.Append(str[i]);
+                        else i += 2;
+                    }
+                    else
+                    {
+                        sb.Append(str[i]);
+                        sb.Append( str[i + 1]);
+                        break;
+                    }
+                }
+            }
+
+            return sb.ToString();
         }
     }
 }
