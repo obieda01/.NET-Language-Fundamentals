@@ -40,9 +40,31 @@ namespace Collections.ExerciseProblems
          * animalGroupName("elephants") -> "unknown"
          * 
          */
+        Dictionary<string, string> animalDictionary = new Dictionary<string, string>()
+         {
+             {  "Rhino" , "Crash" },
+             { "Giraffe","Tower" },
+             { "Elephant", "Herd" },
+             { "Lion","Pride" },
+             { "Crow","Murder" },
+             { "Pigeon", "Kit" },
+             {"Flamingo", "Pat" },
+             { "Deer", "Herd" },
+             { "Dog", "Pack" },
+             { "Crocodile", "Float"}
+         };
+
+ 
+
+
         public string AnimalGroupName(string animalName)
         {
-            return null;
+
+            if(animalName.Length<2) return "unknown";
+            string animalNameManipulated = animalName.Substring(0, 1).ToUpper() + animalName.Substring(1).ToLower();
+            if (!animalDictionary.ContainsKey(animalNameManipulated)) return "unknown";
+            else return animalDictionary[animalNameManipulated];
+            
         }
 
         /*
@@ -67,9 +89,28 @@ namespace Collections.ExerciseProblems
          * isItOnSale("dungeon9999") → 0.00 
          * 
          */
+
+
+
+        Dictionary<string, double> discountPercentage = new Dictionary<string, double>()
+         {
+             { "KITCHEN4001" , 0.20 },
+             { "GARAGE1070", 0.15 },
+             { "LIVINGROOM",  0.10 },
+             { "KITCHEN6073",0.40 },
+             { "BEDROOM3434", 0.60 },
+             { "BATH0073", 0.15 }
+
+         };
+
         public double IsItOnSale(string itemNumber)
         {
-            return 0.00;
+            if(itemNumber.Length<1) return 0.00;
+            itemNumber = itemNumber.ToUpper();
+            
+            if (!discountPercentage.ContainsKey(itemNumber)) return 0.00;
+
+            return discountPercentage[itemNumber];
         }
 
         /*
@@ -84,7 +125,14 @@ namespace Collections.ExerciseProblems
          */
         public Dictionary<string, int> RobPeterToPayPaul(Dictionary<string, int> peterPaul)
         {
-            return null;
+            if (peterPaul == null) return null;
+            Dictionary<string, int> resultDictonary = peterPaul;
+            if (resultDictonary["Peter"] > 0 && resultDictonary["Paul"] < 1000)
+            {
+                resultDictonary["Paul"] += resultDictonary["Peter"] / 2;
+                resultDictonary["Peter"] /= 2;
+            }
+            return resultDictonary;
         }
 
         /*
@@ -98,7 +146,16 @@ namespace Collections.ExerciseProblems
          */
         public Dictionary<string, int> PeterPaulPartnership(Dictionary<string, int> peterPaul)
         {
-            return null;
+            if (peterPaul == null) return null;
+
+            if (peterPaul["Peter"] >= 5000 && peterPaul["Paul"] >= 10000)
+            {
+                peterPaul.Add("PeterPaulPartnership", ((int)((peterPaul["Peter"] + peterPaul["Paul"]) * 0.25)));
+                peterPaul["Peter"] = (int)(peterPaul["Peter"] * 0.75);
+                peterPaul["Paul"] = (int)(peterPaul["Paul"] * 0.75);
+
+            }
+            return peterPaul;
         }
 
         /*
@@ -111,7 +168,23 @@ namespace Collections.ExerciseProblems
          */
         public Dictionary<string, string> BeginningAndEnding(string[] words)
         {
-            return null;
+            if (words.Length == 0) return null;
+
+            Dictionary<string, string> resultDictionary = new Dictionary<string, string>();
+
+            foreach (string word in words)
+            {
+                if (!resultDictionary.ContainsKey(word[0].ToString()))
+                {
+
+                    resultDictionary.Add(word[0].ToString(), word[word.Length - 1].ToString());
+                }
+                else
+                {
+                    resultDictionary[word[0].ToString()] = word[word.Length - 1].ToString();
+                }
+            }
+            return resultDictionary;
         }
 
         /*
@@ -128,7 +201,19 @@ namespace Collections.ExerciseProblems
          */
         public Dictionary<string, int> WordCount(string[] words)
         {
-            return null;
+            if (words == null || words.Length == 0) return new Dictionary<string, int>();
+            Dictionary<string, int> resultDictionary = new Dictionary<string, int>();
+
+            foreach (string word in words)
+            {
+                if (!resultDictionary.ContainsKey(word))
+                {
+                    resultDictionary.Add(word, 1);
+
+                }
+                else ++resultDictionary[word];
+            }
+            return resultDictionary;
         }
 
         /*
@@ -144,7 +229,19 @@ namespace Collections.ExerciseProblems
          */
         public Dictionary<int, int> IntCount(int[] ints)
         {
-            return null;
+            if (ints == null || ints.Length == 0) return new Dictionary<int, int>();
+            Dictionary<int, int> resultDictionary = new Dictionary<int, int>();
+
+            foreach (int intNum in ints)
+            {
+                if (!resultDictionary.ContainsKey(intNum))
+                {
+                    resultDictionary.Add(intNum, 1);
+
+                }
+                else ++resultDictionary[intNum];
+            }
+            return resultDictionary;
         }
 
         /*
@@ -158,7 +255,21 @@ namespace Collections.ExerciseProblems
          */
         public Dictionary<string, bool> WordMultiple(string[] words)
         {
-            return null;
+            if (words == null || words.Length == 0) return new Dictionary<string, bool>();
+            Dictionary<string, bool> resultDictionary = new Dictionary<string, bool>();
+
+            foreach (string word in words)
+            {
+                if (!resultDictionary.ContainsKey(word))
+                {
+                    resultDictionary.Add(word, false);
+                }
+                else
+                {
+                    resultDictionary[word] = true;
+                }
+            }
+            return resultDictionary;
         }
 
         /*
@@ -174,7 +285,21 @@ namespace Collections.ExerciseProblems
         public Dictionary<string, int> ConsolidateInventory(Dictionary<string, int> mainWarehouse, 
             Dictionary<string, int> remoteWarehouse)
         {
-            return null;
+            if (mainWarehouse == null) return remoteWarehouse;
+            if (remoteWarehouse == null) return mainWarehouse;
+            Dictionary<string, int> consolidateDictionary  = mainWarehouse;
+            foreach (KeyValuePair<string,int> keyValue in remoteWarehouse)
+            {
+                if (!consolidateDictionary.ContainsKey(keyValue.Key))
+                {
+                    consolidateDictionary.Add(keyValue.Key, keyValue.Value);
+                }
+                else
+                {
+                    consolidateDictionary[keyValue.Key] = consolidateDictionary[keyValue.Key] + keyValue.Value;
+                }
+            }
+            return consolidateDictionary;
         }
 
         /*
@@ -194,8 +319,29 @@ namespace Collections.ExerciseProblems
          */
         public Dictionary<string, int> Last2Revisted(string[] words)
         {
-            return null;
+            if (words == null || words.Length == 0) return new Dictionary<string, int>();
+            Dictionary<string, int> resultDictionary = new Dictionary<string, int>();
+            foreach (string word in words)
+            {
+                if (!resultDictionary.ContainsKey(word)) resultDictionary.Add(word, countDoublicate(word));
+                else
+                {
+                    resultDictionary[word] = countDoublicate(word);
+                }
+            }
+            return resultDictionary;
         }
 
+        public int countDoublicate(string word)
+        {
+            if (word.Length < 4) return 0;
+            int count = 0;
+            string last2Char = word.Substring(word.Length - 2, 2);
+            for (int i = 0; i < word.Length-2; i++)
+            {
+                if (word[i] == last2Char[0] && word[i + 1] == last2Char[1]) count++;
+            }
+            return count;
+        }
     }
 }
