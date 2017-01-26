@@ -25,22 +25,40 @@ namespace CompanyExercise
 
             // Instantiate a new company
             // e.g. Company variableName = new Company();
-            
+
+            //Company ahmadCompany = new Company();
+
             // Try Setting the name of the Company
             // e.g. variableName.PropertyName = value
+
+           // ahmadCompany.SetGetCompanyName = "Ahmad Obiedat Company";
 
             // Try Getting the name of the Company
             // e.g. Console.WriteLine(variableName.PropertyName)
             // e.g. string name = variableName.PropertyName;
-                                             
+
+           // Console.WriteLine(ahmadCompany.SetGetCompanyName);
+
+
             // Try setting some of the other Company properties
-            
+
+           // ahmadCompany.SetGetAddress = "303 Hague Ave, Columbus Ohio";
+           // Console.WriteLine(ahmadCompany.SetGetAddress);
+
+            //ahmadCompany.SetGetCompanySize = 100;
+            //Console.WriteLine(ahmadCompany.SetGetCompanySize);
+
+            //ahmadCompany.SetGetCompanyDescription = "Tech Company";
+            //Console.WriteLine(ahmadCompany.SetGetCompanyDescription);
+
             // If you implemented CompanySize as a calculated property are you able
             // to set the value or do you receive a compile error?
 
             // Does CompanySize and Profit return the correct value based on the other properties?
 
             // Try instantiating another company object and doing the same as above with it
+
+            //Company secondCompany = new Company();
         }
     }
 }

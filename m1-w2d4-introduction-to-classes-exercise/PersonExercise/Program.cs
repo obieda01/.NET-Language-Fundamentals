@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechElevator.Classes;
 
 
-namespace PersonExercise
+namespace CompanyExercise
 {
     class Program
     {
@@ -28,21 +29,37 @@ namespace PersonExercise
             // Instantiate a new person
             // e.g. Person variableName = new Person();
 
-            // Try Setting the first name of the Person
-            // e.g. variableName.PropertyName = value
 
-            // Try Getting the first name of the Person
-            // e.g. Console.WriteLine(variableName.PropertyName)
-            // e.g. string name = variableName.PropertyName;
+            //Person newPerson = new Person();
 
-            // Try setting some of the other Person properties
+            //// Try Setting the first name of the Person
+            //// e.g. variableName.PropertyName = value
 
-            // If you implemented FullName as a calculated property are you able
-            // to set the value or do you receive a compile error?
+            //newPerson.SetGetFirstName = "Ahamd";
 
-            // Does FullName and Adult return the correct value based on the other properties?
+            //// Try Getting the first name of the Person
+            //// e.g. Console.WriteLine(variableName.PropertyName)
+            //// e.g. string name = variableName.PropertyName;
 
-            // Try instantiating another person object and doing the same as above with it
+            //Console.WriteLine(newPerson.SetGetFirstName);
+
+            //// Try setting some of the other Person properties
+
+            //newPerson.SetGetLastName = "Obiedat";
+
+            //// If you implemented FullName as a calculated property are you able
+            //// to set the value or do you receive a compile error?
+
+            //Console.WriteLine(newPerson.GetFullName);
+
+            //// Does FullName and Adult return the correct value based on the other properties?
+
+            //// the answer is YES
+
+
+            //// Try instantiating another person object and doing the same as above with it
+
+            //Person secondPerson = new Person();
         }
     }
 }

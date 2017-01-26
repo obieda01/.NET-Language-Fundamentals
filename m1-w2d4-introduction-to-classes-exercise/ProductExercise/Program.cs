@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechElevator.Classes;
+
 
 namespace ProductExercise
 {
@@ -26,6 +28,8 @@ namespace ProductExercise
 
             // Instantiate a new product
             // e.g. Product variableName = new Product();
+
+            Product newProduct = new Product();
 
             // Try Setting the weight of the product
             // e.g. variableName.PropertyName = value

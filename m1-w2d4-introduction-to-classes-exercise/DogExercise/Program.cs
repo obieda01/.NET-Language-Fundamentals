@@ -11,6 +11,8 @@ namespace DogExercise
     {
         static void Main(string[] args)
         {
+           // Dog newDog = new Dog();
+           // newDog.SetGetDogStatus="isSleeping";
             
         }
     }
