@@ -16,7 +16,7 @@ namespace Individual.Exercises.Classes
         private string planeNumber;
 
         // Properties 
-
+        
         public int BookedFirstClassSeats
         {
             get { return bookedFirstClassSeats; }

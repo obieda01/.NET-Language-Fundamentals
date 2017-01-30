@@ -8,7 +8,7 @@ namespace Individual.Exercises.Classes
 {
     public class Elevator
     {
-        private int currentLevel=1;
+        private int currentLevel = 1;
         private int numberOfLevels;
         private bool doorIsOpen;
 
@@ -32,7 +32,8 @@ namespace Individual.Exercises.Classes
             this.numberOfLevels = totalNumberOffloors;
         }
 
-        public void OpenDoor() {
+        public void OpenDoor()
+        {
             doorIsOpen = true;
 
         }
@@ -42,16 +43,16 @@ namespace Individual.Exercises.Classes
         }
         public void GoUp(int desiredFloor)
         {
-            if (!doorIsOpen&&desiredFloor<= numberOfLevels&&desiredFloor>currentLevel)
+            if (!doorIsOpen && desiredFloor <= numberOfLevels && desiredFloor > currentLevel)
             {
                 currentLevel = desiredFloor;
 
             }
 
-          }
+        }
         public void GoDown(int desiredFloor)
         {
-            if (!doorIsOpen && desiredFloor >= 1&&desiredFloor<currentLevel)
+            if (!doorIsOpen && desiredFloor >= 1 && desiredFloor < currentLevel)
             {
                 currentLevel = desiredFloor;
 

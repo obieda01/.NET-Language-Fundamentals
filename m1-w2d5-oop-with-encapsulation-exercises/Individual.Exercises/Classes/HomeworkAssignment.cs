@@ -10,7 +10,7 @@ namespace Individual.Exercises.Classes
     {
         private int totalMarks;
         private int possibleMarks;
-        private string submitterName;
+                       private string submitterName;
         private string letterGrade;
 
         public HomeworkAssignment()
