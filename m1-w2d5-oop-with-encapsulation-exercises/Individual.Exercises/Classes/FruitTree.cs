@@ -10,7 +10,7 @@ namespace Individual.Exercises.Classes
     {
         private string typeOfFruit;
         private int piecesOfFruitLeft;
-        
+
         // properties 
 
         public string TypeOfFruit
@@ -38,7 +38,7 @@ namespace Individual.Exercises.Classes
         {
             if (numberOfPiecesToRemove <= PiecesOfFruitLeft)
             {
-                this.piecesOfFruitLeft-= numberOfPiecesToRemove;
+                this.piecesOfFruitLeft -= numberOfPiecesToRemove;
                 return true;
             }
             else return false;

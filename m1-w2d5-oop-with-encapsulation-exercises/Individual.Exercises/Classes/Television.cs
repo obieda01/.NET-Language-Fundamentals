@@ -58,7 +58,7 @@ namespace Individual.Exercises.Classes
                 {
                     currentChannel = 3;
                 }
-                else { ++currentChannel; }
+                             else { ++currentChannel; }
             }
         }
         public void ChannelDown()
@@ -94,7 +94,7 @@ namespace Individual.Exercises.Classes
                 {
                     currentVolume = 0;
                 }
-                else { --currentVolume; }
+                        else { --currentVolume; }
             }
         }
     }
