@@ -7,17 +7,25 @@ namespace Exercises.Tests
     [TestClass]
     public class AnimalGroupNameTest
     {
+        AnimalGroupName testedInstance = new AnimalGroupName();
 
         [TestMethod]
-        public void AnimalGroupName_GetHerdTests()
+        
+        public void AnimalGroupName_ExceptionsTests()
         {
-            AnimalGroupName testedInstance = new AnimalGroupName();
 
             Assert.IsNotNull(testedInstance);
             Assert.AreEqual("Crash", testedInstance.GetHerd("rhino"));
             Assert.AreNotEqual("unknown", testedInstance.GetHerd("rhino"));
             Assert.AreEqual("unknown", testedInstance.GetHerd("excel"));
 
+
+        }
+        [TestMethod]
+        public void AnimalGroupName_GetHerdTests()
+        { 
+           // Assert.AreEqual("NullReferenceException", testedInstance.GetHerd(null));
+            Assert.AreEqual("unknown", testedInstance.GetHerd(null));
 
         }
 

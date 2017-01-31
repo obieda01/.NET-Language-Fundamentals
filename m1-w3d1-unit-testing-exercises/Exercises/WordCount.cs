@@ -27,6 +27,7 @@ namespace Exercises
             foreach (string word in words)
             {
                 if (!output.ContainsKey(word))
+
                 {
                     output[word] = 1;
                 }

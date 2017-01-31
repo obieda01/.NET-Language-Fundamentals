@@ -38,7 +38,9 @@ namespace Exercises
          */
         public string GetHerd(string animalName)
         {
-            Dictionary<string, string> animals = new Dictionary<string, string>()
+            try
+            {
+                Dictionary<string, string> animals = new Dictionary<string, string>()
             {
                 {"rhino", "Crash" },
                 {"giraffe", "Tower" },
@@ -52,11 +54,16 @@ namespace Exercises
                 {"crocodile", "Float" },
             };
 
-            if (animals.ContainsKey(animalName.ToLower()))
-            {
-                return animals[animalName.ToLower()];
+                if (animals.ContainsKey(animalName.ToLower()))
+                {
+                    return animals[animalName.ToLower()];
+                }
+                else
+                {
+                    return "unknown";
+                }
             }
-            else
+            catch (Exception)
             {
                 return "unknown";
             }
