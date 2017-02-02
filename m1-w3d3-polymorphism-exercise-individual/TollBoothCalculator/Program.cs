@@ -27,7 +27,8 @@ namespace PostageCalculator
             foreach (IVechicle item in allVehichles)
             {
                 int randomDistance = r.Next(10, 240);
-                writeToConsole(item.ToString(), randomDistance.ToString(), item.calculateToll(randomDistance).ToString());
+                string str = item.ToString();
+                writeToConsole(str.Substring(26), randomDistance.ToString(), item.calculateToll(randomDistance).ToString());
             }
 
             Console.ReadKey();

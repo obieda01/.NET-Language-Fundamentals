@@ -43,9 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\1stClass.cs" />
-    <Compile Include="Classes\IVehichleDriver.cs" />
-    <Compile Include="Classes\PostalService.cs" />
+    <Compile Include="Classes\PostalService\1stClass.cs" />
+    <Compile Include="Classes\SPU\2-day.cs" />
+    <Compile Include="Classes\PostalService\2ndClass.cs" />
+    <Compile Include="Classes\PostalService\3rdClass.cs" />
+    <Compile Include="Classes\FexEd.cs" />
+    <Compile Include="Classes\IDeliveryDriver.cs" />
+    <Compile Include="Classes\SPU\Next-Day.cs" />
+    <Compile Include="Classes\PostalService\PostalService.cs" />
+    <Compile Include="Classes\SPU\SPU.cs" />
+    <Compile Include="Classes\SPU\_4-day.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

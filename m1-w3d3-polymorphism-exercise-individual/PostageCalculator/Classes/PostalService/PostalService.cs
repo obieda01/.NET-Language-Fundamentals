@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace PostageCalculator.Classes
 {
-public    class PostalService:IVehichleDriver
+    public class PostalService : IDeliveryDriver
     {
+        private double rate;
+
+        public double Rate
+        {
+            get { return rate; }
+            set { rate = value; }
+        }
+
         private int ounces;
 
         public int Ounces
@@ -23,12 +31,14 @@ public    class PostalService:IVehichleDriver
             get { return pounds; }
             set { pounds = value; }
         }
-
-
-        public virtual double calculateRate(int distance,double weight)
+        public int convertPoundsToOunces()
         {
+            return (Pounds * 16) + Ounces;
+        }
 
-            return 0;
+        public virtual double calculateRate(int distance, double weight)
+        {
+            return Math.Round(Rate, 2);
         }
     }
 }
