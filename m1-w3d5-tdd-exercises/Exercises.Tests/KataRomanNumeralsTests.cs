@@ -24,6 +24,8 @@ namespace Exercises.Tests
             Assert.AreEqual("MM", new KataRomanNumerals().calculateRomanNumerals(2000));
 
             Assert.AreEqual("MMVIII", new KataRomanNumerals().calculateRomanNumerals(2008));
+            Assert.AreEqual(string.Empty, new KataRomanNumerals().calculateRomanNumerals(-3));
+            Assert.AreEqual(string.Empty, new KataRomanNumerals().calculateRomanNumerals(3001));
 
         }
     }
