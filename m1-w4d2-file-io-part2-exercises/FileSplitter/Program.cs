@@ -10,6 +10,8 @@ namespace FileSplitter
     {
         static void Main(string[] args)
         {
+
+            FileSplitter.proccessFiles();
         }
     }
 }

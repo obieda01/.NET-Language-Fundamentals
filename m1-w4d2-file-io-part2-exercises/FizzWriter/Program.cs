@@ -10,6 +10,7 @@ namespace FizzWriter
     {
         static void Main(string[] args)
         {
+            FizzBuzz.FizzBuzzWriter();
         }
     }
 }
