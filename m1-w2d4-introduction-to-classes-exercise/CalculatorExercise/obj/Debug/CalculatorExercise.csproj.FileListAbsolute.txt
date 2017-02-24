@@ -1,0 +1,6 @@
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CalculatorExercise\bin\Debug\CalculatorExercise.exe.config
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CalculatorExercise\bin\Debug\CalculatorExercise.exe
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CalculatorExercise\bin\Debug\CalculatorExercise.pdb
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CalculatorExercise\obj\Debug\CalculatorExercise.csprojResolveAssemblyReference.cache
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CalculatorExercise\obj\Debug\CalculatorExercise.exe
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CalculatorExercise\obj\Debug\CalculatorExercise.pdb

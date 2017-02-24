@@ -1,0 +1,6 @@
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CompanyExercise\bin\Debug\CompanyExercise.exe.config
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CompanyExercise\bin\Debug\CompanyExercise.exe
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CompanyExercise\bin\Debug\CompanyExercise.pdb
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CompanyExercise\obj\Debug\CompanyExercise.csprojResolveAssemblyReference.cache
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CompanyExercise\obj\Debug\CompanyExercise.exe
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d4-introduction-to-classes-exercise\CompanyExercise\obj\Debug\CompanyExercise.pdb

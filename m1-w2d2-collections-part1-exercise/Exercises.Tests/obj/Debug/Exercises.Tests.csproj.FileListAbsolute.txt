@@ -1,0 +1,8 @@
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d2-collections-part1-exercise\Exercises.Tests\bin\Debug\Exercises.Tests.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d2-collections-part1-exercise\Exercises.Tests\bin\Debug\Exercises.Tests.pdb
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d2-collections-part1-exercise\Exercises.Tests\bin\Debug\Exercises.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d2-collections-part1-exercise\Exercises.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d2-collections-part1-exercise\Exercises.Tests\bin\Debug\Exercises.pdb
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d2-collections-part1-exercise\Exercises.Tests\obj\Debug\Exercises.Tests.csprojResolveAssemblyReference.cache
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d2-collections-part1-exercise\Exercises.Tests\obj\Debug\Exercises.Tests.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d2-collections-part1-exercise\Exercises.Tests\obj\Debug\Exercises.Tests.pdb

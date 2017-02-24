@@ -1,0 +1,5 @@
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises\bin\Debug\Exercises.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises\bin\Debug\Exercises.pdb
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises\obj\Debug\Exercises.csprojResolveAssemblyReference.cache
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises\obj\Debug\Exercises.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises\obj\Debug\Exercises.pdb

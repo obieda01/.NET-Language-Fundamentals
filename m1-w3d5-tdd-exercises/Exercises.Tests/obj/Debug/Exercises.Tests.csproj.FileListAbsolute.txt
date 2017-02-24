@@ -1,0 +1,7 @@
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises.Tests\bin\Debug\Exercises.Tests.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises.Tests\bin\Debug\Exercises.Tests.pdb
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises.Tests\bin\Debug\Exercises.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises.Tests\bin\Debug\Exercises.pdb
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises.Tests\obj\Debug\Exercises.Tests.csprojResolveAssemblyReference.cache
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises.Tests\obj\Debug\Exercises.Tests.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w3d5-tdd-exercises\Exercises.Tests\obj\Debug\Exercises.Tests.pdb

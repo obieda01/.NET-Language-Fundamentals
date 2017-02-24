@@ -1,0 +1,8 @@
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w1optional-weekend-1-review-exercises\WeekendExercises.Tests\bin\Debug\WeekendExercises.Tests.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w1optional-weekend-1-review-exercises\WeekendExercises.Tests\bin\Debug\WeekendExercises.Tests.pdb
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w1optional-weekend-1-review-exercises\WeekendExercises.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w1optional-weekend-1-review-exercises\WeekendExercises.Tests\bin\Debug\WeekendExercises.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w1optional-weekend-1-review-exercises\WeekendExercises.Tests\bin\Debug\WeekendExercises.pdb
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w1optional-weekend-1-review-exercises\WeekendExercises.Tests\obj\Debug\WeekendExercises.Tests.csprojResolveAssemblyReference.cache
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w1optional-weekend-1-review-exercises\WeekendExercises.Tests\obj\Debug\WeekendExercises.Tests.dll
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w1optional-weekend-1-review-exercises\WeekendExercises.Tests\obj\Debug\WeekendExercises.Tests.pdb

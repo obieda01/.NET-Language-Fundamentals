@@ -1,0 +1,5 @@
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d5-oop-with-encapsulation-exercises\Individual.Exercises\bin\Debug\Individual.Exercises.exe.config
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d5-oop-with-encapsulation-exercises\Individual.Exercises\bin\Debug\Individual.Exercises.exe
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d5-oop-with-encapsulation-exercises\Individual.Exercises\bin\Debug\Individual.Exercises.pdb
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d5-oop-with-encapsulation-exercises\Individual.Exercises\obj\Debug\Individual.Exercises.exe
+C:\Users\aobiedat\Tech Elevator\.Net class\week1\ahmedobieda-c-exercises\m1-w2d5-oop-with-encapsulation-exercises\Individual.Exercises\obj\Debug\Individual.Exercises.pdb
