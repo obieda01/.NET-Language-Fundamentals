@@ -13,6 +13,7 @@ body {
   display: block;
   font-size: 70px;
   display: absolute;
+    display: inline-block;
 }
 
 .odd {
@@ -23,16 +24,15 @@ body {
   background-color: #44accf;
 }
 
-#box_1,#box_8{
-  margin-left: 170px;
-}
-#box_2,#box_7{
-  margin-left: 340px;
-}
-#box_3,#box_6{
-  margin-left: 510px;
+
+.layer_2 {
+margin-left: 85px;
 }
 
-#box_4,#box_5{
-  margin-left: 680px;
+.layer_1 {
+margin-left: 170px;
+}
+
+.layer_0 {
+margin-left: 255px;
 }
