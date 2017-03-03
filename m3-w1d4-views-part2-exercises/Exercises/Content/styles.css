@@ -6,17 +6,20 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body, header, nav {
+body,
+header,
+nav {
     margin: 0px;
 }
 
 header {
     background-color: #0099CC;
-    color: white;
+    color: whitesmoke;
     padding: 10px 10px;
 }
-
-
+header h1{
+    font-size: 15px;
+}
 nav {
     background-color: #8DC63F;
     margin-bottom: 20px;
@@ -24,28 +27,28 @@ nav {
     height: 50px;
 }
 
-    nav ul {
-        float: left;
-    }
+nav ul {
+    float: left;
+}
 
-    nav li {
-        list-style-type: none;
-        color: white;
-        margin-left: 25px;
-        margin-bottom: 10px;
-        font-size: 1.3em;
-        float: left;
-    }
+nav li {
+    list-style-type: none;
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    float: left;
+}
 
-        nav li a {
-            color: white;
-            font-weight: bold;
-            text-decoration: none;
-        }
+nav li a {
+    color: dodgerblue;
+    font-weight: bold;
+    text-decoration: none;
+}
 
-            nav li a:hover {
-                text-decoration: underline;
-            }
+nav li a:hover {
+    text-decoration: underline;
+}
 
 section {
     clear: both;
@@ -58,5 +61,6 @@ section {
     background-color: #FFF;
     border-radius: 7px;
 }
+
 
 /* Individual Page Styles */

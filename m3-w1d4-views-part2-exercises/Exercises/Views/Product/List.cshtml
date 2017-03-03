@@ -1,0 +1,66 @@
+﻿@{
+    Layout = null;
+}
+@model List<Exercises.Models.Product>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List View</title>
+</head>
+<body>
+    <section>
+
+        @foreach (var product in Model)
+        {
+            <div class="container">
+                <img src="../../Content/images/@product.ImageName" />
+                <ul>
+                    <li id="productName">
+                        @product.Name
+                        @if (product.IsTopSeller)
+                        {
+                            <span style="color:red; ">BEST SELLER!</span>
+                        }
+                    </li>
+                    <li id="manufacture">by @product.Manufacturer</li>
+                    <li id="price">$ @product.Price.ToString()</li>
+                    <li id="weight">by @product.WeightIbLbs.ToString()</li>
+
+                    <li id="weight">
+                        @if (product.AverageRating <= 1)
+                        {
+                            <img src="../../Content/images/1-star.png" />
+                        }
+                        else if (product.AverageRating <= 2 && product.AverageRating > 1)
+                        {
+                            <img src="../../Content/images/1-star.png" />
+
+                        }
+                        else if (product.AverageRating <= 3 && product.AverageRating > 2)
+                        {
+                            <img src="../../Content/images/2-star.png" />
+
+                        }
+                        else if (product.AverageRating <= 4 && product.AverageRating > 3)
+                        {
+                            <img src="../../Content/images/3-star.png" />
+
+                        }
+                        else
+                        {
+
+                            <img src="../../Content/images/5-star.png" />
+
+
+                        }
+                    </li>
+
+                </ul>
+            </div>
+        }
+    </section>
+</body>
+</html>
