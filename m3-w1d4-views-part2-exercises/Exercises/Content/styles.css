@@ -17,9 +17,11 @@ header {
     color: whitesmoke;
     padding: 10px 10px;
 }
-header h1{
-    font-size: 15px;
-}
+
+    header h1 {
+        font-size: 15px;
+    }
+
 nav {
     background-color: #8DC63F;
     margin-bottom: 20px;
@@ -27,40 +29,64 @@ nav {
     height: 50px;
 }
 
-nav ul {
-    float: left;
-}
+    nav ul {
+        float: left;
+    }
 
-nav li {
-    list-style-type: none;
-    color: white;
-    margin-left: 25px;
-    margin-bottom: 10px;
-    font-size: 1em;
-    float: left;
-}
+    nav li {
+        list-style-type: none;
+        color: white;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        font-size: 1em;
+        float: left;
+    }
 
-nav li a {
-    color: dodgerblue;
-    font-weight: bold;
-    text-decoration: none;
-}
+        nav li a {
+            color: dodgerblue;
+            font-weight: bold;
+            text-decoration: none;
+        }
 
-nav li a:hover {
-    text-decoration: underline;
-}
+            nav li a:hover {
+                text-decoration: underline;
+            }
 
 section {
     clear: both;
-    display: block;
     width: 80%;
     margin: 20px auto;
-    vertical-align: top;
-    text-align: center;
+    text-align: left;
     min-height: 450px;
     background-color: #FFF;
     border-radius: 7px;
 }
-
+    section div {
+        display: inline-block;
+    }
 
 /* Individual Page Styles */
+/* List*/
+.active {
+    display: block;
+}
+    .active .list-group-item {
+        vertical-align: top;
+    }
+    .active .list-group-item .img-list{
+        list-style: none;
+    }
+   .active div img {
+        width: 200px;
+    }
+
+.list-group-item img {
+    width: 200px;
+}
+/* Table*/
+section img {
+    width: 30px;
+}
+section table {
+    text-align: center;
+}
