@@ -78,7 +78,11 @@ window.onload = function() {
 
     function frontAgain(str) {
         if (!isNaN(str) || str === null) return false;
-        if (str.substring(0, 1) === str.substring(str.length - 2, str.length - 1)) { return true; } else { return false; }
+        if (str.substring(0, 1) === str.substring(str.length - 2, str.length - 1)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     console.log("************************");
@@ -96,6 +100,17 @@ window.onload = function() {
     }
 
 
+    console.log("************************");
+    console.log(oddOnly([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])); // → [1, 3, 5, 7, 9, 11];
+    console.log(oddOnly([2, 4, 8, 32, 256])); //→ []
+
+    function oddOnly(nums) {
+        var oddNums = [];
+        for (var i = 0; i < nums.length; i++) {
+            if (nums[i] % 2 != 0) oddNums.push(nums[i]);
+        }
+        return oddNums;
+    }
     // console.log(makeMi)ddle([1, 2, 3, 4])); // → [2, 3]
     // console.log(makeMiddle([7, 1, 2, 3, 4, 9])); // → [2, 3]
     // console.log(makeMiddle([1, 2])); // → [1, 2]
