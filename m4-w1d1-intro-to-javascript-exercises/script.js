@@ -111,6 +111,20 @@ window.onload = function() {
         }
         return oddNums;
     }
+
+
+    console.log("************************");
+    console.log(weave([1, 3, 5], [2, 4])); //→ [1, 2, 3, 4, 5]
+    console.log(weave([1, 3, 5], [2, 4, 6, 8])); //→ [1, 2, 3, 4, 5, 6, 8]
+    function weave(nums) {
+        var newArray = [];
+        for (var index = 0; index < nums.length; index++) {
+            var element = nums[index];
+
+        }
+    }
+
+
     // console.log(makeMi)ddle([1, 2, 3, 4])); // → [2, 3]
     // console.log(makeMiddle([7, 1, 2, 3, 4, 9])); // → [2, 3]
     // console.log(makeMiddle([1, 2])); // → [1, 2]
