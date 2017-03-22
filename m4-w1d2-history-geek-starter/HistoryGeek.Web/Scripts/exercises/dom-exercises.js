@@ -22,7 +22,7 @@ function democratPresidents() {
 
 //Locate all Federalist presidents and add the 'gold' class.
 function otherPresidents() {
-    $("#presidents").children().not(".Democratic", ".Republican").addClass("gold");
+    $("#presidents").children().not(".Democratic").not(".Democratic-Republican ").not(".Republican").addClass("gold");
     
 }
 
@@ -43,8 +43,9 @@ function endOfTheCenturyPresidents() {
 
 //Locate all presidents serving in the 1900s who appear on currency and add the 'appearOnCurrency' class.
 function currencyPresidents() {
+
         
-     $("#presidents div.currency").slice(9, 11).addClass("appearOnCurrency");
+     $("#presidents div.currency").slice(9, 14).addClass("appearOnCurrency");
         //.slice(24.40);
 
 
