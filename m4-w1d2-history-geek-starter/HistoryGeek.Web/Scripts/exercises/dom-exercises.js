@@ -43,7 +43,9 @@ function endOfTheCenturyPresidents() {
 
 //Locate all presidents serving in the 1900s who appear on currency and add the 'appearOnCurrency' class.
 function currencyPresidents() {
-    $("#presidents div").slice(24.40).addClass("appearOnCurrency").hasClass("currency");
+        
+     $("#presidents div.currency").slice(9, 11).addClass("appearOnCurrency");
+        //.slice(24.40);
 
 
 }
