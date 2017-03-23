@@ -1,7 +1,8 @@
-drop table order_items;
-drop table orders;
-drop table products;
-drop table users;
+--CREATE DATABASE historygeek;
+--drop table order_items;
+--drop table orders;
+--drop table products;
+--drop table users;
 
 create table users
 (
