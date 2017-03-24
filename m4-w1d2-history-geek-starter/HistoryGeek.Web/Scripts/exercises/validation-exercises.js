@@ -1,9 +1,22 @@
-﻿/// <reference path="../jquery-3.1.1.js" />
-/// <reference path="../jquery.validate.js" />
+﻿$(document).ready(function() {
+    $("#register").validate({
 
-$(document).ready(function () {
+        debug: true,
+        rule: {
+            EmailAddress: {
+                required: true,
+            },
+            Password: {
+                required: true,
+                minlength: 8, //requires at least 8 characters
 
-   
+            },
+
+
+        }
+
+
+    });
+
+
 });
-
-
